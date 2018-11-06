@@ -41,7 +41,7 @@ const createOutputGrid = data => {
   return data;
 };
 
-validateOrtho = (row, col) => {
+const validateOrtho = (row, col) => {
   let validMoves = [];
   let top = [row, col - 1];
   let right = [row + 1, col];
