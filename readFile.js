@@ -10,6 +10,7 @@ const readFile = fileName => {
     if (err) throw err;
     const rawData = data.toString().split("\n");
     for (let i = 0; i < rawData.length - 1; i++) {
+      // ignore width and height on first two lines of input
       if (i > 1) {
         inputData.push([...rawData[i].split("")]);
       }
