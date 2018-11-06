@@ -1,3 +1,3 @@
-const writeFile = require("./writeFile");
+const writeFile = require("../writeFile");
 
 // unit tests for file writing
