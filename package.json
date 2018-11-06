@@ -1,0 +1,15 @@
+{
+  "name": "ironcladtechnicalchallenge",
+  "version": "1.0.0",
+  "description": "a battleship-like game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Vincent-Hill",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "prompt": "^1.0.0"
+  }
+}
