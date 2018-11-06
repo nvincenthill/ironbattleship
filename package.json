@@ -4,12 +4,15 @@
   "description": "a battleship-like game",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "author": "Nicholas Vincent-Hill",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
     "commander": "^2.19.0",
+    "mocha": "^5.2.0",
     "prompt": "^1.0.0"
   }
 }
