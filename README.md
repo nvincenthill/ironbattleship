@@ -4,18 +4,18 @@ All dependencies listed in `package.json`
 
 To install:
 
-'''npm install```
+`npm install`
 
 in root directory.
 
 To run program:
 
-'''npm start```
+`npm start`
 
 in root directory.
 
 To run tests:
 
-'''npm run test```
+`npm run test`
 
 in root directory.
